@@ -1,14 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Breakout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <h1>Pokémon Breakout</h1>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    
+    <!-- Hidden image for the game ball -->
+    <img id="img-pokeball" src="https://img.pokemondb.net/sprites/items/poke-ball.png" alt="Pokéball" style="display:none">
+
+    <script src="breakout.js" defer></script>
 </body>
 </html>

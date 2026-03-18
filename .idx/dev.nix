@@ -7,6 +7,12 @@
   packages = [
     pkgs.nodejs_22
     pkgs.python3
+    pkgs.git
+    pkgs.javaPackages.compiler.temurin-bin.jre-8
+    pkgs.previewqt
+    pkgs.texlivePackages.preview
+    pkgs.pokemon-cursor
+    pkgs.pokemonsay
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -14,6 +20,7 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "adelphes.android-dev-ext"
       "google.gemini-cli-vscode-ide-companion"
     ];
     # Enable previews and customize configuration
