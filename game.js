@@ -148,7 +148,7 @@ function render() {
     
     // Draw Game Over
     if (lives <= 0) {
-        drawText('Game Over', canvas.width/2 - 100, canvas.height/2, '#ffde00', '50px fantasy');
+        drawText('Acabou o Jogo', canvas.width/2 - 100, canvas.height/2, '#ffde00', '50px fantasy');
     }
 }
 
